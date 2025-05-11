@@ -1,0 +1,15 @@
+﻿Model Metrics Summary
+Final Model: XGBoost Classifier
+Parameters: Default XGBoost parameters were used; no hyperparameter tuning was applied, as the baseline model outperformed the tuned version.
+Custom Threshold: 0.3 (applied to improve recall and catch more defaulters)
+Features Used: All engineered and cleaned features, including LTV, DTI, income, property value, and credit type
+Performance Metrics (Test Set):
+* Accuracy: 90%
+
+* Recall: 71%
+
+* Precision: 67%
+
+* F1-Score: 69%
+
+* ROC AUC: 87%
